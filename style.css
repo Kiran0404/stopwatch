@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(17, 16, 16);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
+}
+.stopwatch{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(9, 18, 26);
+    color: aliceblue;
+    font-size: 50px;
+    padding: 20px 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 grey;
+
+}
+
+.buttons{
+    margin-top: 20px;    
+}
+
+.btn{
+    font-size: 20px;
+    margin-inline: 8px;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    border: transparent;
+}
+
+.start{
+    background-color: green;
+}
+
+.stop{
+    background-color: red;
+}
+
+.reset{
+    background-color: yellow;
+
+}
+
+
